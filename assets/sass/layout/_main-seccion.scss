@@ -1,0 +1,39 @@
+.main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.videos__container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+
+.item {
+    font-family: monospace;
+    height: 250px;
+}
+
+.videos__container {
+    justify-items: center;
+}
+
+.videos__img {
+    width: 290px;
+    align-content: center;
+    height: auto;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.grilla {
+    display: flex;
+}
+
+.main__col {
+    /*    background-color: blue; */
+    height: 280px;
+}

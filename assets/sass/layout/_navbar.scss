@@ -1,0 +1,52 @@
+            /*  */
+            
+            .collapse {
+                justify-content: end;
+            }
+            
+            .container {
+                display: flex;
+            }
+            
+            .contacto {
+                &__img {
+                    width: 80px;
+                    border-radius: 50%;
+                }
+            }
+            
+            .navbarcontacto {
+                display: flex;
+            }
+            
+            .fondo__img {
+                padding: 0;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: auto
+            }
+            
+            .navbarbuttons {
+                position: absolute;
+                right: 100px;
+                align-self: center;
+                padding: 10px;
+                &__msn {
+                    margin-right: 10px;
+                }
+                &__sgr {
+                    margin-left: 10px;
+                }
+            }
+            
+            .navbaricono {
+                width: 40px;
+                font-size: 1.3rem;
+            }
+            
+            sup {
+                vertical-align: super;
+                font-size: 10px;
+            }
+            /**/
